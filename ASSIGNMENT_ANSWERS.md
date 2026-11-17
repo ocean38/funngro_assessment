@@ -55,7 +55,6 @@ lib/earnings/detail_screen.dart
 How to test: Run the app and open Part 1: Earnings.
 
 ## Implemented:
-
 ListView.builder() for better performance.
 Loading, error, and empty states.
 API calls outside build().
@@ -84,8 +83,9 @@ Review lifecycle management and list performance in every PR.
 
 These practices will help keep the app stable and responsive as it grows.
 
-Part 3 — Founder Note and Action Plan
-Message to the Founder
+--------------------------------------------------------------------------------------------------------
+
+Part 3 — Founder Note and Action Plan | Message to the Founder:
 Crash-free users dropped from 99.6% to 98.1% in the 20% rollout group. The new crashes show an ad SDK PlatformException when the app resumes.
 
 We didn't update the ads SDK in version 6.4.0, so something in our release may be triggering an existing issue.
@@ -102,7 +102,6 @@ Find out how many users are affected.
 Identify the first affected app version.
 
 - Find Common Patterns
-Check Android versions and device brands.
 Look for low-memory devices.
 Compare cold starts and app resumes.
 Identify whether the issue affects specific devices or many users.
